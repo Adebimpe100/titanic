@@ -23,7 +23,7 @@ import streamlit_extras as ste
 import streamlit_option_menu as sto
 
 #Importing the dataset
-dataset = pd.read_csv('C:/Users/Shopinverse/Desktop/Datasets/titanic-passengers.csv', delimiter= ';', index_col='PassengerId')
+dataset = pd.read_csv('titanic-passengers.csv', delimiter= ';', index_col='PassengerId')
 
 
 #Initializing the page and setting a background
@@ -226,6 +226,6 @@ def add_bg_from_local(image_file):
 
 
 # Set a background image
-background = add_bg_from_local('C:/Users/Shopinverse/Downloads/magicpattern-grid-pattern-1689780670265.png')
+background = add_bg_from_local('magicpattern-grid-pattern.png')
 
 
