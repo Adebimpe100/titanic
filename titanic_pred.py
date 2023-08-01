@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
 #import plotly as px
-import seaborn as sns; sns.set()
+#import seaborn as sns; sns.set()
 from st_on_hover_tabs import on_hover_tabs
 
 
