@@ -19,8 +19,8 @@ from st_on_hover_tabs import on_hover_tabs
 #from sklearn.model_selection import cross_val_score
 import base64
 import streamlit as st 
-import streamlit_extras as ste
-import streamlit_option_menu as sto
+#import streamlit_extras as ste
+#import streamlit_option_menu as sto
 
 #Importing the dataset
 dataset = pd.read_csv('titanic-passengers.csv', delimiter= ';', index_col='PassengerId')
